@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "Map Polygon",
+  "id": "id-map-polygon",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "Map Polygon",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": ["polygon"],
+    "logos": {
+      "small": "img/polygon.svg",
+      "large": "img/polygon.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
