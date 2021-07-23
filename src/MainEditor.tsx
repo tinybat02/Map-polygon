@@ -93,7 +93,7 @@ export const MainEditor: React.FC<PanelEditorProps<MapOptions>> = ({ options, on
         <div className="section gf-form-group">
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', height: 15 }}>
             <h5 className="section-heading" style={{ marginBottom: 0 }}>
-              Drawing Feature
+              Polygon
             </h5>
             {options.geoJSON ? <img src={Exists} /> : <img src={None} />}
           </div>
@@ -105,7 +105,7 @@ export const MainEditor: React.FC<PanelEditorProps<MapOptions>> = ({ options, on
         </div>
         <div className="section gf-form-group">
           <h5 className="section-heading" style={{ marginBottom: 0 }}>
-            Drawing Feature
+            Polygon
           </h5>
 
           <section style={{ marginTop: 15 }}>
@@ -116,7 +116,7 @@ export const MainEditor: React.FC<PanelEditorProps<MapOptions>> = ({ options, on
         </div>
         <div className="section gf-form-group">
           <h5 className="section-heading" style={{ marginBottom: 0 }}>
-            Upload Tile GeoJSON
+            Upload GeoJSON
           </h5>
           <section style={{ marginTop: 15 }}>
             <UploadArea addGeoJSON={addGeoJSON} />
